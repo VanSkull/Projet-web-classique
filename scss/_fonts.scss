@@ -1,0 +1,15 @@
+// Importation des typos
+@font-face {
+    font-family: "Font Name";
+    src: url("../assets/fonts/font.eot");
+    src: url("../assets/fonts/font.eot?#iefix") format("embedded-opentype"),
+         url("../assets/fonts/font.woff") format("woff"),
+         url("../assets/fonts/font.woff2") format("woff2"),
+         url("../assets/fonts/font.ttf") format("truetype"),
+         url("../assets/fonts/font.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Variables des typos
+$font-font-name: 'Font Name', sans-serif;

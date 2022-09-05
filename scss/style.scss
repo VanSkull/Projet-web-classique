@@ -1,0 +1,18 @@
+// Imports des typos
+@import 'fonts';
+
+// Imports des variables (tailles, couleurs...)
+@import 'variables';
+
+// Styling
+h1{
+    font-size: $primary-title;
+    color: $gray-700;
+}
+
+p{
+    color: $blue;
+    font-family: $font-font-name;
+}
+
+// Commande à exécuter :  sass --watch scss/style.scss css/style.css
